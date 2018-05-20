@@ -12,7 +12,7 @@ end
 
 def take_a_number(katz_deli, name)
   y = katz_deli.index("#{name}")
-  puts "Welcome, #{name}. You are number #{y} in line."
+  puts "Welcome, #{name}. You are number #{y + 1} in line."
 end
 
 def now_serving
