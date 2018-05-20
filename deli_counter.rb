@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     x = katz_deli.map.with_index { 
       |name, index| 
-    puts "#{index + 1}. #{name}" 
+    "#{index + 1}. #{name}" 
     }
     puts "The line is currently: #{x}"
   end
