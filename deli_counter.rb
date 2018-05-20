@@ -9,7 +9,7 @@ def line(katz_deli)
       |name, index| 
     puts "#{index + 1}. #{name}" 
     }
-    puts "The line is currently: #{x}"
+    puts "#{x}"
   end
 end
 
